@@ -4,31 +4,32 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CuoiKy_DP.DataObject.Factory
 {
     internal class CarFactory
     {
-        public Car createCar(WheelType wheelType, EngineType engineType, ColorType colorType, string gearBox, string modelCar, float maxFuelCapacity, float fuelCapacity, CarType carType, string recommentGas = null)
+        public Car createCar(WheelType wheelType, EngineType engineType, ColorType colorType, GearBoxType gearType, ModelType modelCarType, float maxFuelCapacity, float fuelCapacity, CarType carType, string recommentGas = null)
         {
             Wheel wheel = (Wheel) ElectricCarBuilder.electricCar.wheel.Clone();
             switch(wheelType)
             {
-                case WheelType.DWheelModel1:
-                    wheel.size = 100;
+                case WheelType.DTDModel01_26:
+                    wheel.size = 26;
                     wheel.tireMaterial = "Rubber";
                     wheel.boneMaterial = "Aluminum";
 
                     break;
-                case WheelType.DWheelModel2:
-                    wheel.size = 110;
+                case WheelType.DTDModel01_27:
+                    wheel.size = 27;
                     wheel.tireMaterial = "Rubber";
-                    wheel.boneMaterial = "Aluminum";
+                    wheel.boneMaterial = "Carbon";
 
                     break;
-                case WheelType.DWheelModel3:
-                    wheel.size = 115;
+                case WheelType.DTDModel01_29:
+                    wheel.size = 29;
                     wheel.tireMaterial = "Rubber";
                     wheel.boneMaterial = "Aluminum";
 
@@ -38,20 +39,64 @@ namespace CuoiKy_DP.DataObject.Factory
             Engine engine = (Engine) ElectricCarBuilder.electricCar.engine.Clone();
             switch(engineType)
             {
-                case EngineType.DEngineModel1:
-                    engine.horsePower = 1000;
-                    engine.nameEngine = "DF8";
+                case EngineType.EEngine01:
+                    engine.horsePower = 80;
+                    engine.nameEngine = "DTDFast01E";
+                    engine.version = "1.0";
+                    break;
+                case EngineType.EEngine02:
+                    engine.horsePower = 120;
+                    engine.nameEngine = "DTDFast02E";
                     engine.version = "1.1";
                     break;
-                case EngineType.DEngineModel2:
-                    engine.horsePower = 1100;
-                    engine.nameEngine = "DF8+";
-                    engine.version = "1.2";
+                case EngineType.DEngine01:
+                    engine.horsePower = 100;
+                    engine.nameEngine = "DTDFast01D";
+                    engine.version = "1.0";
                     break;
-                case EngineType.DEngineModel3:
-                    engine.horsePower = 1200;
-                    engine.nameEngine = "DF8++";
-                    engine.version = "1.3";
+                case EngineType.DEngine02:
+                    engine.horsePower = 150;
+                    engine.nameEngine = "DTDFast02D";
+                    engine.version = "1.1";
+                    break;
+                case EngineType.GEngine01:
+                    engine.horsePower = 90;
+                    engine.nameEngine = "DTDFast01G";
+                    engine.version = "1.0";
+                    break;
+                case EngineType.GEngine02:
+                    engine.horsePower = 120;
+                    engine.nameEngine = "DTDFast02G";
+                    engine.version = "1.1";
+                    break;
+            }
+
+            
+            string gearBox = ElectricCarBuilder.electricCar.gearBox;
+            switch (gearType)
+            {
+                case GearBoxType.Manual:
+                    gearBox = "Manual";
+                    break;
+                case GearBoxType.Automatic:
+                    gearBox = "Automatic";
+                    break;
+            }
+
+            string modelCar = ElectricCarBuilder.electricCar.modelCar;
+            switch(modelCarType)
+            {
+                case ModelType.Sedan:
+                    modelCar = "Sedan";
+                    break;
+                case ModelType.SUV:
+                    modelCar = "SUV";
+                    break;
+                case ModelType.Sport:
+                    modelCar = "Sport";
+                    break;
+                case ModelType.Hatchback:
+                    modelCar = "Hatchback";
                     break;
             }
 

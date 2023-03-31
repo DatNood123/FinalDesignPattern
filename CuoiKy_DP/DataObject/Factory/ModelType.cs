@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace CuoiKy_DP.DataObject.Factory
 {
-    internal enum WheelType
+    internal enum ModelType
     {
-        DTDModel01_26,
-        DTDModel01_27,
-        DTDModel01_29
+        Sedan,
+        SUV,
+        Sport,
+        Hatchback
     }
 }

@@ -29,9 +29,9 @@ namespace CuoiKy_DP.DataObject.Produce
         {
             _color = color;
         }
-        public void setGear(string gear)
+        public void setGear(string gearBox)
         {
-            _gearBox = gear;
+            _gearBox = gearBox;
         }
         public void setModel(string modelCar)
         {

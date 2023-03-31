@@ -57,6 +57,8 @@
     <Compile Include="DataObject\Factory\CarType.cs" />
     <Compile Include="DataObject\Factory\ColorType.cs" />
     <Compile Include="DataObject\Factory\EngineType.cs" />
+    <Compile Include="DataObject\Factory\GearBoxType.cs" />
+    <Compile Include="DataObject\Factory\ModelType.cs" />
     <Compile Include="DataObject\Factory\WheelType.cs" />
     <Compile Include="DataObject\Produce\CarBuilder.cs" />
     <Compile Include="DataObject\Produce\DieselCarBuilder.cs" />

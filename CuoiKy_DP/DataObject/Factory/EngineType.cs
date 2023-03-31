@@ -8,8 +8,11 @@ namespace CuoiKy_DP.DataObject.Factory
 {
     internal enum EngineType
     {
-        DEngineModel1, 
-        DEngineModel2, 
-        DEngineModel3
+        EEngine01,
+        EEngine02,
+        DEngine01,
+        DEngine02,
+        GEngine01,
+        GEngine02
     }
 }

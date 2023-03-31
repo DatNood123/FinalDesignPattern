@@ -42,7 +42,7 @@ namespace CuoiKy_DP
             
             CarFactory carbuilder = new CarFactory();
 
-            var eCar = carbuilder.createCar(WheelType.DWheelModel1, EngineType.DEngineModel1, ColorType.Black, "GB", "Sendan", 20000, 0, CarType.Diesel);
+            var eCar = carbuilder.createCar(WheelType.DTDModel01_26, EngineType.DEngine01, ColorType.Black, GearBoxType.Manual, ModelType.Sedan, 20000, 0, CarType.Diesel);
             if(eCar.GetType().Equals(typeof(DieselCar)))
             {
                 MessageBox.Show(eCar.GetType().Name);
@@ -52,6 +52,8 @@ namespace CuoiKy_DP
             MessageBox.Show(eCar.wheel.size.ToString());
             MessageBox.Show(eCar.color.colorName.ToString());
             MessageBox.Show(eCar.engine.horsePower.ToString());
+            MessageBox.Show(eCar.gearBox.ToString());
+            MessageBox.Show(eCar.modelCar.ToString());
         }
     }
 }
