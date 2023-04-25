@@ -113,16 +113,7 @@ insert into ModelCarType(name) values ('Sedan'),('SUV'),('Sport'),('Hatchback');
 insert into Car(name_car,wheel_id,engine_id,color_id,gear_type_id,model_car_id) 
 values ('Car 1', 1,1,2,1,2),('Car 2', 2,3,4,2,4),('Car 3', 3,4,4,2,4);
 
-create table user(
-	id int primary key auto_increment,
-    tennguoidung text,
-    matkhau text
-);
-create table ykien(
-	id int primary key auto_increment,
-    opinion text
-);
-insert into user(tennguoidung,matkhau) values('user1','123456'),('user2','123456');
+
 
 
 

@@ -21,7 +21,7 @@ namespace ck
 
             private DataProvider() { }
 
-            private string strconn = "Server=localhost; Database=cardp; User Id=root;Password=123456,Character Set=UTF8";
+            private string strconn = "Server=localhost; Database=cardp; User Id=root;Password=kocomatkhau,Character Set=UTF8";
 
             public DataTable ExecuteQuery(string query, object[] parameter = null)
             {
