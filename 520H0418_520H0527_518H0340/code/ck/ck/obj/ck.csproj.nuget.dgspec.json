@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_5180340\\code\\ck\\ck\\ck.csproj": {}
+    "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_518H0340\\code\\ck\\ck\\ck.csproj": {}
   },
   "projects": {
-    "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_5180340\\code\\ck\\ck\\ck.csproj": {
+    "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_518H0340\\code\\ck\\ck\\ck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_5180340\\code\\ck\\ck\\ck.csproj",
+        "projectUniqueName": "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_518H0340\\code\\ck\\ck\\ck.csproj",
         "projectName": "ck",
-        "projectPath": "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_5180340\\code\\ck\\ck\\ck.csproj",
+        "projectPath": "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_518H0340\\code\\ck\\ck\\ck.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_5180340\\code\\ck\\ck\\obj\\",
+        "outputPath": "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_518H0340\\code\\ck\\ck\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

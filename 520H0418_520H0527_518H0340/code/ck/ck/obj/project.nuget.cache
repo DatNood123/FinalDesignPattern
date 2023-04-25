@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uTXHNXQskMkH7osfdTStMhafYoJOr8+AX+EtboMVQnzRBUvHodWquwB7GtzVvI2Tbjaz3uL430QJ75HBh23qrQ==",
+  "dgSpecHash": "JmfsyE0ybC+qSWXYpcQZWOkS9pZhIQ6vrlfyq3Z5CZ/LUG9akGe6ap/gFKqWk+gj1Q1GRE+nCRVOJzH/xVEFcw==",
   "success": true,
-  "projectFilePath": "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_5180340\\code\\ck\\ck\\ck.csproj",
+  "projectFilePath": "E:\\code\\DP\\Final\\FinalDesignPattern\\520H0418_520H0527_518H0340\\code\\ck\\ck\\ck.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
